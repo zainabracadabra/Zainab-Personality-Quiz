@@ -1,0 +1,78 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: "Amita";
+  color:black;
+  margin: 2em;
+  background-image:linear-gradient(to bottom right, #0b34D6, #4EBAFD);
+  justify-content:center;
+  text-align:center;
+ background-image: url("summer.jpg"); 
+}
+
+/* STYLE TEXT */
+h1 {
+  font-family: 'Amita';
+  justify-content:center;
+  text-align:center;
+  background-color: #005EB8;
+  color: lightyellow;
+}
+
+h2 {
+  margin-top: 2em; 
+  justify-content:center;
+  text-align:center;
+  text-size:40px;
+  background-color: #aafdaa;
+}
+
+p{
+  background-color: #f0adad;
+  font-size:20px;
+}
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  /* uncomment the next line to center the questions and answers */
+  /* justify-content: center; */
+  margin-top: 2em;
+  justify-content:center;
+  text-align:center;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 5px;
+  justify-content:center;
+  text-align:center;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+  justify-content:center;
+  text-align:center;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  background-color: pink;
+  border-style:none;
+  font-size:17px;
+  font-family: 'Balsamiq Sans', arial, sans-serif;
+  justify-content:center;
+  text-align:center;
+}
+
+button:hover {
+  background-color: powderblue;
+  color: black;
+  border-color: powderblue;
+}
+
+
+
+button:active {
+  transform: translate(3px, 3px);
+}
